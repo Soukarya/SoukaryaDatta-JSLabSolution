@@ -61,21 +61,29 @@ body{
     background-color:#c7dddf;
 }
   
-.evaluate,.next{
+
+.evaluate,.next, .prev{
     width:30vw;
     height: 8vh;
     padding: 5px;
     font-size: larger;
 }
 .evaluate{
-    
-    background-color: #50DBB4;
+  background-color: #50DBB4;
 }
 
 .evaluate:hover {
     color: white;
     background-color: green;
 }
+.prev {
+    background-color: grey;
+}
+
+.prev:hover {
+    background-color: silver;
+}
+
 .next{
     color: white;
     background-color: #BF3325;
