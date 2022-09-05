@@ -138,7 +138,6 @@ next.addEventListener("click", () => {
         iterate(id);
         document.getElementsByClassName('showQuestionNumber')[0].innerText = "Question " +(id+1) + " out of 3";
     }
-  
 })
 
 prev.addEventListener("click", () => {
